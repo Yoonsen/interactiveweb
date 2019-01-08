@@ -1,4 +1,12 @@
 numpy
 ipywidgets
 nbinteract
+pandas
 matplotlib
+numpy
+requests
+IPython
+seaborn
+scipy
+networkx
+wordcloud

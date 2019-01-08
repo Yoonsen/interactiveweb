@@ -13162,69 +13162,11 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>curl -s https://raw.githubusercontent.com/yoonsen/modules/master/module_update.py &gt; module_update.py
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">nbtext</span> <span class="k">as</span> <span class="nn">nb</span>
+<span class="kn">import</span> <span class="nn">ipywidgets</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">module_update</span> <span class="k">import</span> <span class="n">update</span><span class="p">,</span> <span class="n">css</span><span class="p">,</span> <span class="n">code_toggle</span>
-<span class="n">update</span><span class="p">(</span><span class="s1">&#39;graph_networkx_louvain&#39;</span><span class="p">)</span>
-<span class="n">update</span><span class="p">(</span><span class="s1">&#39;nbtext&#39;</span><span class="p">)</span>
-<span class="kn">import</span> <span class="nn">nbtext</span> <span class="k">as</span> <span class="nn">nb</span>
-<span class="kn">import</span> <span class="nn">graph_networkx_louvain</span> <span class="k">as</span> <span class="nn">gnl</span>
-<span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
-<span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="k">import</span> <span class="n">interact</span><span class="p">,</span> <span class="n">interact_manual</span>
-<span class="o">%</span><span class="k">matplotlib</span> inline
-
-<span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="k">import</span> <span class="n">widgets</span><span class="p">,</span> <span class="n">interact_manual</span>
-<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">clear_output</span>
-<span class="kn">from</span> <span class="nn">time</span> <span class="k">import</span> <span class="n">sleep</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<p>Updated file <code>D:\Documents\GitHub\interactiveweb\graph_networkx_louvain.py</code></p>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<p>Updated file <code>D:\Documents\GitHub\interactiveweb\nbtext.py</code></p>
-
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13256,72 +13198,7 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">code_toggle</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-<div class="output_html rendered_html output_subarea ">
-<div>
-                <style>
-                 .mybutton {
-                    background-color: #4CAF50;
-                    border: none;
-                    color: white;
-                    padding: 10px 16px;
-                    text-align: center;
-                    text-decoration: none;
-                    display: inline-block;
-                    font-size: 16px;
-                    margin: 4px 2px;
-                    cursor: pointer;
-                }
-            </style>
-            <script>
-                code_show=true; 
-                function code_toggle() {
-                 if (code_show){
-                 $('div.input').hide();
-                 } else {
-                 $('div.input').show();
-                 }
-                 code_show = !code_show
-                } 
-                $( document ).ready(code_toggle);
-            </script>
-            <form  action="javascript:code_toggle()">
-                <input class='mybutton' type="submit" value="Klikk for å vise/skjule kodeceller">
-            </form>
-        </div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-  </div>
-
-  
-
-  <div class="
-      cell border-box-sizing code_cell rendered">
-    <div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">interact_manual</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">);</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ipywidgets</span><span class="o">.</span><span class="n">interact_manual</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">);</span>
 </pre></div>
 
     </div>
